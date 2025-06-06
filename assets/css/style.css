@@ -295,6 +295,7 @@ main {
   main {
     /* Push main content down to accommodate larger header */
     margin-top: 79px;
+  }
   /* Hero section */
   #cover-text {
     width: 300px;
