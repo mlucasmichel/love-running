@@ -36,7 +36,34 @@
     </header>
 
     <!-- Main content -->
-    <main>Main Content</main>
+    <main>
+        <section id="singup">
+            <form method="post" action="https://formdump.codeinstitute.net" id="signup">
+                <h2><i class="fa-solid fa-heart-pulse"></i> Let's Get You Signed Up!</h2>
+                <label for="first-name">First Name</label>
+                <input type="text" class="text-input" id="first-name" name="first-name" required><br <label
+                    for="last-name">Last Name</label>
+                <input type="text" class="text-input" id="last-name" name="last-name" required><br>
+                <label for="email-address">Email Address</label>
+                <input type="email" class="text-input" id="email-address" name="email-address" required><br>
+
+                <div>
+                    <label for="road">Road</label>
+                    <input type="radio" id="road" name="running-preference" value="road" checked required>
+                </div>
+                <div>
+                    <label for="trail">Trail</label>
+                    <input type="radio" id="trail" name="running-preference" value="trail" required>
+                </div>
+                <div>
+                    <label for="both">Both</label>
+                    <input type="radio" id="both" name="running-preference" value="both" required>
+                </div>
+
+                <input type="submit" class="join-button" name="join-button" id="join-button" value="Let's Run!">
+            </form>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -51,7 +78,8 @@
                     aria-label="Visit our Youtube channel (opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
             </li>
             <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
             </li>
         </ul>
     </footer>
